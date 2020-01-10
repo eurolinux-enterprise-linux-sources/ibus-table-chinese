@@ -4,7 +4,7 @@
 %global createdb ibus-table-createdb
 Name:       ibus-table-chinese
 Version:    1.4.6
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    Chinese input tables for IBus
 Summary(zh_CN): 中文码表输入法
 Summary(zh_TW): 中文碼表輸入法
@@ -439,6 +439,9 @@ YongMa input method.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.6-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.4.6-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
